@@ -11,7 +11,7 @@ dut dut(
         );
 
 initial begin
-        $dumpfile("dut.vcd");
+        $dumpfile("waveform.vcd");
         $dumpvars;
 end
 endmodule
